@@ -1,0 +1,207 @@
+:root {
+    --main-green: #2d8a6b;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+* {
+    box-sizing: border-box;
+}
+button {
+    font-size: 14px !important;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px ;
+}
+.offcanvas-backdrop.show {
+    opacity: 0 !important;
+}
+
+.content-adjust {
+    margin-left: 250px;
+}
+
+.offcanvas.offcanvas-start {
+    width: 300px;
+}
+
+.offcanvas-body {
+    padding: 0;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+.sidebar_left {
+    width: 250px !important;
+}
+.bggreen {
+    background-color: var(--main-green);
+    height: 58px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+}
+
+.header_right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_left {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #ffffff !important;
+}
+
+.btn_dropdown {
+    border: none;
+    cursor: pointer;
+    color: #ffffff !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: unset;
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+
+.dropmenu {
+    width: 300px;
+    margin: 43px -12px;
+}
+
+.drop {
+    text-align: center;
+    background-color: rgb(62, 177, 215);
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+}
+
+.btn_drop {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav_left {
+    height: 44px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.header_text {
+    height: 58px;
+    background-color: var(--main-green);
+    color: #ffffff;
+}
+.form_select {
+    width: 200px;
+}
+
+
+/* login */
+.wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url("login.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper::after {
+    content: "HỆ THỐNG KIỂM TRA LƯỚI ĐIỆN";
+    position: absolute;
+    text-shadow: 3px 1px 3px yellow;
+    color: yellow;
+    font-size: 30px;
+    top: 43px;
+    left: 38px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* .container-fluid {
+    border-radius: 5px;
+    width: 400px;
+    background: aliceblue;
+    padding: 0;
+    overflow: hidden;
+    z-index: 1;
+} */
+.container_login {
+    border-radius: 5px;
+    width: 400px;
+    background: aliceblue;
+    padding: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn_login {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.btn_login button {
+    cursor: pointer;
+}
+
+.btn_login button:first-child {
+    margin-right: 10px;
+}
+
+.container_header {
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.form_login {
+    padding: 20px 15px;
+}
+
+.span_red {
+    color: red;
+}
+/* add */
+.container_form {
+    width: 100%;
+    height: 100%;
+    border-top: 3px solid #117cad;
+    border-radius: 3px;
+    padding: 9px 6px;
+    background-color: #ffffff;
+}
